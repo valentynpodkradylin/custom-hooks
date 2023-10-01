@@ -1,27 +1,30 @@
-# React + TypeScript + Vite
+# Custom Hooks Collection 🪝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Привет! Этот репозиторий содержит коллекцию кастомных хуков, которые я создал для упрощения и оптимизации разработки на React.
 
-Currently, two official plugins are available:
+## Основные особенности:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🚀 **Высокая производительность:** Каждый хук оптимизирован для максимальной производительности.
+- 🔄 **Повторное использование:** Избавьтесь от дублирования кода, используя эти хуки в различных проектах.
+- 📚 **Документировано:** Каждый хук снабжен документацией, объясняющей его назначение, API и примеры использования.
+- 🛠 **Типизировано:** Все хуки написаны с использованием TypeScript для безопасности типов.
 
-## Expanding the ESLint configuration
+## Как использовать:
+v
+1. Клонируйте репозиторий или установите через npm/yarn.
+2. Импортируйте нужный хук в вашем проекте.
+3. Следуйте документации для каждого хука, чтобы узнать, как его использовать.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Список хуков:
 
-- Configure the top-level `parserOptions` property like this:
+(Здесь вы можете перечислить все хуки, которые включены в вашу коллекцию, с кратким описанием каждого.)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- `useExampleHook`: Описание примера хука...
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Вклад:
+
+Если у вас есть идеи или предложения по улучшению этих хуков или добавлению новых, не стесняйтесь создавать issue или pull request!
+
+---
+
+🚀 Счастливого кодирования!
